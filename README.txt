@@ -18,11 +18,11 @@ INHALT
 1  VERSION
 
 
-Diese Übersetzung ist auf dem Stand vom 2025-02-24. Die originale deutschen Übersetzung wurde in der nachfolgende Anzahl an Strings verändert:
+Diese Übersetzung ist auf dem Stand vom 2025-12-29. Die originalen deutschen Übersetzungen wurden in den nachfolgenden Anzahlen an Strings verändert:
 
-- BG1:EE: 5209
-- BG:Sod: 29917
-- BG2:EE: 24211
+- BG1:EE: 5412
+- BG:SoD: 29900
+- BG2:EE: 24885
 
 
 2  INHALTE
@@ -33,7 +33,7 @@ Diese Übersetzung ist auf dem Stand vom 2025-02-24. Die originale deutschen Üb
 - Formale und inhaltliche Vereinheitlichungen für eine einheitliche Verwendung von Begriffen
   („Zeit der Klagen“ und „Zeit der Unruhen“ -> „Zeit der Sorgen“, „Hochmoor“ -> „Hohe Heide“, „Zentarim“ -> „Zhentarim“ uvm.),
 
-- Diverse Rechtschreibkorrekturen
+- diverse Rechtschreibkorrekturen
   („fort ging“ -> „fortging“, „hierher zu kommen“ -> „hierherzukommen“, „kennen lernen“ -> „kennenlernen“, „acht geben“ -> „achtgeben“, „soviel“ -> „so viel“, „Leid tun“ -> „leidtun“ uvm.),
 
 - Verwendung der Duden-Empfehlung bei Wörtern mit mehreren anerkannten Schreibweisen
@@ -42,7 +42,7 @@ Diese Übersetzung ist auf dem Stand vom 2025-02-24. Die originale deutschen Üb
 - Verbesserungen in der Berücksichtigung von männlichen und weiblichen Textvarianten für CHARNAME
   (weitere weibliche Versionen von Substantiven hinzugefügt),
 
-- Verwendung des Gedankenstrichs als Minuszeichen anstatt des Bindestrichs für Modifikatoren in Beschreibungstexten
+- Verwendung des Gedankenstrichs anstatt des Bindestrichs als Minuszeichen für Modifikatoren in Beschreibungstexten
   (bei Rüstungsklasse, Rettungswürfen, Schaden, etc. Das typografische Minuszeichen wird zwar durch die Ingame-Schriftart „Post Antiqua Roman“ dargestellt, jedoch nicht durch die Menü-Schriftart „Modesto“. Daher die Verwendung des Gedankenstrichs als optische Annäherung.)
 
 - Verwendung von typografischen Satzzeichen
@@ -74,22 +74,22 @@ Diese Übersetzung ist auf dem Stand vom 2025-02-24. Die originale deutschen Üb
 
 - Korrekturen von Anschlussfehlern in Dialogen,
 
-- Verbesserte Nutzung von Ausrufezeichen bei Imperativen
+- Nutzung von Ausrufezeichen bei Imperativen
   („Geht jetzt.“ -> „Geht jetzt!“),
 
-- Korrigierte Beschreibung von „Tote erwecken“
+- Korrektur der Beschreibung von „Tote erwecken“
   („Rettungswurf: Speziell“ -> „Rettungswurf: Nein“),
 
-- Umbenennung des „Dread Wolf“ wegen Namensgleichheit mit „Dire Wolf“ (Danke Jarl)
-  („Schreckenswolf“ -> „Untoter Wolf“),
+- Umbenennung des „Dread Wolf“ wegen Namensgleichheit mit „Dire Wolf“ (Danke Jarl und Argent)
+  („Schreckenswolf“ -> „Düsterwolf“),
 
 - Vereinheitlichung der Schreibweise der Unbändigen Magie
   („unbändige Magie/Woge“ -> „Unbändige Magie/Woge“),
 
-- Geänderter Begriff des Wealdath
+- Änderung des Begriffs des Wealdath
   („Wealdath“ -> „Tethirwald“),
 
-- vereinheitlichter Sprachstil bei Vertrauten
+- Vereinheitlichung des Sprachstils bei Vertrauten
   (beschreibende Texte in Kalmmern, ausgesprochene Texte ohne Anführungszeichen),
 
 - Vereinheitlichung der Schreibweise von „pit fiend“
@@ -98,7 +98,7 @@ Diese Übersetzung ist auf dem Stand vom 2025-02-24. Die originale deutschen Üb
 - Vereinheitlichung der Schreibweise von Selûne
   („Selune/Selûne“ -> „Selûne“),
 
-- Vereinheitlichte Beschrebung des Effekts Handlungsfreiheit und
+- Vereinheitlichung der Beschreibung des Effekts Handlungsfreiheit und
 
 - Vereinheitlichung des Geschlechts von Abyss
   („die Abyss“ -> „der Abyss“).
@@ -106,10 +106,16 @@ Diese Übersetzung ist auf dem Stand vom 2025-02-24. Die originale deutschen Üb
 
 2.2  ÄNDERUNGEN FÜR BG1:EE
 
-- Korrigiertes „Monty Python“-Zitat #15479
+- Korrektur des „Monty Python“-Zitats #15479
   („Ohhhh, ich bin Holzfäller, wenn ich's doch sag - Ich arbeit die Nacht und schlaf am Tag!“ -> „Ohhhh, ich bin Holzfäller und mir gehts gut, am Tag packt mich die Arbeitswut!“),
 
-- Vollständig übersetzter Name von Firebead 
+- Korrektur des Dialogs mit Phlydia
+ („Was ist denn mit dir los? Wir sind schon so lange befreundet, und plötzlich gehst du auf mich los? Du hast vielleicht Sorgen, Kind …“ -> „Phlydia hat eines ihrer Bücher in … Oh, du hast es schon. Wenn du es ihr bringen könntest und dann zurückkommst, habe ich ein paar Pläne für dich.“),
+
+- Korrektur des Dialogs mit Sonner
+  („Dabei haben wir auch an Euch gedacht, denn wir wollten uns zu gerne ein wenig bei Euch revanchieren. Wir sind nun alle kleine Bauern auf dem großen Schachbrett der Götter. Passt auf, wo Ihr in Zukunft hintretet, sonst landet Ihr noch in einem gewaltigen Fettnäpfchen.“ -> „Teil des Plans war auch eine kleine Racheaktion. Passt auf, wo Ihr in Zukunft hintretet, sonst tretet Ihr auf ein paar ziemlich mächtige Zehen.“),
+
+- Übersetzung des Namens von Firebead 
   („Firebead Elfenhaar“ -> „Feuerperle Elfenhaar“),
 
 – Verwendung der weiblichen Form für Vai
@@ -124,20 +130,32 @@ Diese Übersetzung ist auf dem Stand vom 2025-02-24. Die originale deutschen Üb
 - Korrigierte Fehlübersetzung bei Tagebucheintrag	
   („Streit um den Eisenthron“ -> „Konkurrenz für den Eisenthron“),
 
-- Übersetzter Name von Berrun Ghastkill 
+- Übersetzung des Namens von Berrun Ghastkill 
   („Berrun Ghastkill“ -> „Berrun Grultöter“),
 
-- Vereinheitlichte Erwähnung und Korrektur des Verzauberungsbonus im Namen von Waffen
+- Vereinheitlichung und Korrektur des Verzauberungsbonus im Namen von Waffen
   („Nachtschlag +1“ -> „Nachtschlag +2“,
    „Baldurans Schwert“ -> „Baldurans Schwert +1“,
    „Streitkolben“ (DEVA.ITM) -> „Streitkolben +3“,
    „Zweihänder +1“ (SKELWASU.ITM) -> „Zweihänder +3“,
-   „Die Führung +2“ -> „Die Führung +5“) und
+   „Die Führung +2“ -> „Die Führung +5“),
 
-- Korrigiertes Gewicht bei Gegenständen
+- Korrektur des Gewichts bei Gegenständen
   („Nimmervoller Beutel […] Gewicht 2“ -> „Nimmervoller Beutel […] Gewicht 9“,
    „Die Pranken des Geparden […] Gewicht 4“ -> „Die Pranken des Geparden […] Gewicht 0“,
-   „Streitkolben +3 […] Gewicht 10“ -> „Streitkolben +3 […] Gewicht 8“).
+   „Streitkolben +3 […] Gewicht 10“ -> „Streitkolben +3 […] Gewicht 8“),
+
+- Korrektur des Dialogs mit Irlentree #1291
+  („Wenn ich wiederkomme, geleite ich Euch zum Ort des Festaktes.“ -> „Der Festakt findet im dritten Stock statt. Wenn Ihr dort hingeht, treffe ich Euch kurz danach.“),
+
+- Korrektur des Dialogs mit Aldeth Sashenstar #1071
+  („Nicht viel, aber warum haltet Ihr Eure Jubiläumsfeier in einer solchen Zeit ab?“ -> „Das hört sich nicht gut an. Ich denke, wir sollten so schnell wie möglich von hier verschwinden.“),
+
+- Geändeter Name der Kurtisane Sugar 
+  („Sugar“ -> „Angelique“) und
+
+- Vereinheitlichung des Namens des Hauses der Wunder
+  („Halle der Wunder / Haus der Wunder“ -> „Haus der Wunder“).
 
 
 2.3  ÄNDERUNGEN FÜR BG:SOD
@@ -194,10 +212,10 @@ Unterschiede dieser Übersetzung gegenüber der offiziellen Übersetzung sind zu
 
 2.4  ÄNDERUNGEN FÜR BG2:EE
 
-- Namen des Händlers im Seeschatz vereinheitlicht
+- Vereinheitlichung des Namens des Händlers im Seeschatz
   („Marcus/Markus“ -> „Markus“),
 
-- Namen des Diebesgilden-Verwalters vereinheitlicht
+- Vereinheitlichung des Namens des Diebesgilden-Verwalters
   („Lathan/Lathen“ -> „Lathan“),
 
 - Vereinheitlichung von Valygars Nachnamen
@@ -218,7 +236,25 @@ Unterschiede dieser Übersetzung gegenüber der offiziellen Übersetzung sind zu
 - Korrigiertes „Eine Frage der Ehre“-Zitat #64666
   („Ihr wollt die Wahrheit? Ihr könnt mit der Wahrheit nicht umgehen!“ -> „Ihr wollt die Wahrheit? Ihr könnt die Wahrheit doch gar nicht vertragen!“),
 
-- Vereinheitlichte Erwähnung und Korrektur des Verzauberungsbonus im Namen von Waffen
+- Korrigierter Dialog #20857 mit Gaelan Bayle aufgrund vertonter fehlerhafter Übersetzung der Antwort
+  („Ja, das bin ich. Was möchtet Ihr denn?“ -> „Ja, das bin ich. Was möchtet Ihr? Ein weiterer Dieb, der mir an den Geldbeutel will?“),
+
+- Korrigierte Übersetzung von Jaheiras Dialog #39181
+  („Außerdem würde es bevorzugen, mal wieder durch grünere Gefilde zu reisen […]“ -> „Ich würde es begrüßen, mal wieder durch grünere Gefilde zu streifen […]“),
+
+- Korrigierte Übersetzung von Mazzys Dialog #24581
+  („Ja, das war einmal. […]“ -> „Eine Zeit lang, ja. […]“),
+
+- Korrigierte Übersetzung von Mazzys Dialog #24583
+  („Ihr seid verärgert, mein Freund. Ich kann das verstehen, denn die Ungerechtigkeit und Gleichgültigkeit waren immer der größte Feind unserer Gesellschaft. Sie stellen eine größere Gefahr dar, als es ein Drache je sein könnte.“ -> „Ihr seid verärgert, wenn ich das richtig verstehe. Ungerechtigkeit und Gleichgültigkeit waren schon immer die Übel unserer Gesellschaft. Ich denke oft, dass diese Sünden eine größere Gefahr für uns darstellen könnten als irgendein Drache.“),
+
+- Korrigierter Dialog zwischen Harrold und Frau Harrold
+  („Ihr“ -> „du“),
+
+- Änderung des Begriffs „Tiger-Trainer“ #24966
+  („Tiger-Trainer“ -> Tigerbändiger),
+
+- Vereinheitlichung und Korrektur des Verzauberungsbonus im Namen von Waffen
   („Aegis-Fang +3“ -> „Aegis-Fang“,
    „Widderstecken +4“ -> „Widderstecken +3“,
    „Streitkolben der Zerschlagung +1“ -> „Streitkolben der Zerschlagung +3“,
@@ -248,7 +284,7 @@ Unterschiede dieser Übersetzung gegenüber der offiziellen Übersetzung sind zu
    „Drowbasla“ -> „Drowbasla +3“,
    „Abyssklinge“ -> „Abyssklinge +3“),
 
-- Korrigiertes Gewicht bei Gegenständen
+- Korrektur des Gewichts bei Gegenständen
   („Teil der Dimensionsreißers […] Gewicht 1“ -> „Teil der Dimensionsreißers […] Gewicht 0“,
    „Feder vom Flügel eines Planetars […] Gewicht 0“ -> „Feder vom Flügel eines Planetars […] Gewicht 1“,
    „Zweihänder +2 […] Gewicht 15“ (DEMOSUM4.ITM) -> „Zweihänder +2 […] Gewicht 10“,
@@ -259,21 +295,54 @@ Unterschiede dieser Übersetzung gegenüber der offiziellen Übersetzung sind zu
    „Die Klaue des Schwarzen Leoparden […] Gewicht 2“ -> „Die Klaue des Schwarzen Leoparden […] Gewicht 1“,
    „Unbändige Schleuder +1 […] Gewicht 1“ -> „Unbändige Schleuder +1 […] Gewicht 0“),
 
-- Korrigierte Mindeststärke bei Gegenständen
+- Korrektur der Mindeststärke bei Gegenständen
   („Umhang des Hochwaldes +1 […]“ -> „Umhang des Hochwaldes +1 […] Mindeststärke: 13“,
    „Prunkharnisch der Firecams […]“ -> „Prunkharnisch der Firecams […] Mindeststärke: 15“,
    „Familienschild der Delryns […]“ -> „Familienschild der Delryns […] Mindeststärke: 14“,
    „Stecken des Hochwaldes +2 […]“ -> „Stecken des Hochwaldes +2 […] Mindeststärke: 13“,
    „Strahlendes Zepter […]“ -> „Strahlendes Zepter […] Mindeststärke: 5“),
 
-- Übersetzter Name von Keldorn Firecam
+- Übersetzung des Namens von Keldorn Firecam
   („Firecam“ -> „Feuerkam“),
 
-- Vereinheitlichung von Jierdn Firkraags Namen
-  („Jeirdan“ -> „Jierdan“) und
+- Vereinheitlichung von Jierdan Firkraags Namen
+  („Jeirdan“ -> „Jierdan“),
 
-- Vereinheitlichung der <schreibweise der Rolle der Auflösung
-  („Rolle der Aufhebung“ -> „Rolle der Auflösung“).
+- Vereinheitlichung der Schreibweise der Rolle der Auflösung
+  („Rolle der Aufhebung“ -> „Rolle der Auflösung“),
+
+- Korrigerte Übersetzung des Dialogs zwischen Viconia und Salvanas
+  („Wirklich? Ich auch. Vielleicht könnten wir […]“ -> „Wirklich? Vielleicht könnten wir […]“),
+
+- Benutzung der weiblichen Form in Mazzys Dialog #14556, #14557 und #19995
+  („Krieger“ -> „Kriegerinn“, „Schläger“ -> „Schlägerin“, „Kämpfer“ -> „Kämpferin“),
+
+- Änderung des Dialogs zwischen Valygar und einem Mädchen
+  („Ihr“ -> „du“),
+
+- Korrektur des Dialogs zwischen Nalia und Bauer #13919
+  („überrannt“ -> „umgeritten“),
+
+- Kerrektur des Dialogs zwischen Nalia und CHARNAME 633
+  („Um Euren Vater zu retten?“ -> „Wir sollen also Euren Vater finden?“),
+
+- Korrigierte Übersetzung des „Rod of Terror“ #38860
+  („Zepter des Schreckens“ -> „Stab des Schreckens“),
+
+- Korrigerte Boni bei Feindbann #66248 und #66254
+  („gg. Untote, Gestaltwandler, Dämonen und Teufel“ -> „gg. Dämonen, Teufel, Rakshasa, Lykantropen, Doppelgänger und Untote“),
+
+- Korrigiertes Duzen zwischen Mazzy, Danno und Vara #24217, #24279, #24280, #24281, #24303, #24304, #24305, #24308, #24462, #24463, #24464
+  („Ihr“ -> „du“),
+
+- orrigierte Übersetzung von Tazoks Dialog #58597
+  („Mein in Windeln liegender Verwandter […]“ -> „Die Windeltragenden meiner Sippschaft […]“) und
+
+- Vereinheitlichung der Schreibweise des Relikt der Heiligen
+  („Reliquie der Heiligkeiten“ -> „Relikt der Heiligen“),
+
+- Vereinheitlichung der Schreibweise des Höchst Ehrenwerten Ordens des Strahlenden Herzens
+  („Orden des Höchst Strahlenden Herzens“ -> „Höchst Ehrenwerter Orden des Strahlenden Herzens“).
 
 
 2.5  VERBLIEBENE INKONSISTENZEN
