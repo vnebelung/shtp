@@ -10,7 +10,14 @@ DESIGNATED 1
 LABEL ~SHTPBG1EE~
 REQUIRE_PREDICATE GAME_IS ~bgee~ ~Diese Komponente ist nur für BG1:EE ohne EET~
 
-INCLUDE ~shtp/bg1ee.tph~
+WITH_TRA ~shtp/de/bg1ee.tra~ BEGIN
+	OUTER_SET strref_count = NEXT_STRREF
+	OUTER_FOR (i = 0; i < strref_count; ++i) BEGIN
+		ACTION_IF TRA_ENTRY_EXISTS (i) BEGIN
+			STRING_SET_EVALUATE i (AT i)
+		END
+	END
+END
 
 // Component BG:SoD
 
@@ -19,7 +26,14 @@ DESIGNATED 2
 LABEL ~SHTPBGSOD~
 REQUIRE_PREDICATE GAME_IS ~bgee~ AND FILE_EXISTS_IN_GAME ~bd0103.are~ ~Diese Komponente ist nur für BG:SoD ohne EET~
 
-INCLUDE ~shtp/bgsod.tph~
+WITH_TRA ~shtp/de/bgsod.tra~ BEGIN
+	OUTER_SET strref_count = NEXT_STRREF
+	OUTER_FOR (i = 0; i < strref_count; ++i) BEGIN
+		ACTION_IF TRA_ENTRY_EXISTS (i) BEGIN
+			STRING_SET_EVALUATE i (AT i)
+		END
+	END
+END
 
 // Component BG:EET (BG1)
 
@@ -28,7 +42,14 @@ DESIGNATED 3
 LABEL ~SHTPBGEETBG1~
 REQUIRE_PREDICATE GAME_IS ~eet~ ~Diese Komponente ist nur für BG1:EE mit EET~
 
-INCLUDE ~shtp/bg1ee-eet.tph~
+WITH_TRA ~shtp/de/bg1ee.tra~ BEGIN
+	OUTER_SET strref_count = (NEXT_STRREF - 200000)
+	OUTER_FOR (i = 0; i < strref_count; ++i) BEGIN
+		ACTION_IF TRA_ENTRY_EXISTS (i) BEGIN
+			STRING_SET_EVALUATE (200000 + i) (AT i)
+		END
+	END
+END
 
 // Component BG:EET (SoD)
 
@@ -37,7 +58,14 @@ DESIGNATED 4
 LABEL ~SHTPBGEETSOD~
 REQUIRE_PREDICATE GAME_IS ~eet~ ~Diese Komponente ist nur für BG:SoD mit EET~
 
-INCLUDE ~shtp/bgsod-eet.tph~
+WITH_TRA ~shtp/de/bgsod.tra~ BEGIN
+	OUTER_SET strref_count = (NEXT_STRREF - 200000)
+	OUTER_FOR (i = 0; i < strref_count; ++i) BEGIN
+		ACTION_IF TRA_ENTRY_EXISTS (i) BEGIN
+			STRING_SET_EVALUATE (200000 + i) (AT i)
+		END
+	END
+END
 
 // Component BG2:EE
 
@@ -46,4 +74,11 @@ DESIGNATED 5
 LABEL ~SHTPBG2EE~
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~Diese Komponente ist nur für BG2:EE mit oder ohne EET~
 
-INCLUDE ~shtp/bg2ee.tph~
+WITH_TRA ~shtp/de/bg2ee.tra~ BEGIN
+	OUTER_SET strref_count = NEXT_STRREF
+	OUTER_FOR (i = 0; i < strref_count; ++i) BEGIN
+		ACTION_IF TRA_ENTRY_EXISTS (i) BEGIN
+			STRING_SET_EVALUATE i (AT i)
+		END
+	END
+END
